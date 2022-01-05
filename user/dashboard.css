@@ -281,5 +281,14 @@ h2{
 }
 .news1{
   width: auto;
-  height: 180px;
+  height: 250px;
+}
+td{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.date{
+  color: rgba(253, 128, 0, 0.8);
+  font-weight: 500;
+ 
 }
