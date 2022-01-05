@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+
+    <title>User Dashboard</title>
+  </head>
+  <div class="mx-auto">
+        <div class='row'>
+            <div class='col'>
+                <img class="brgylogo" src="images/brgylogo.png">
+            </div>
+            <div class='col'>
+                <h5>BARANGAY NAZARETH RESIDENTIAL INFORMATION SYSTEM</h5>
+            </div>
+        </div>
+  </div>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+<div class="bg">
+<div class="tabs">
+  <div class="tab-2">
+    <label for="tab2-1">HOME</label>
+    <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/dashb1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MISSION</h5>
+              <p>The City Government’s mission under Mayor Moreno’s leadership is to best serve all stakeholders through the following mission principles, namely –</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dash2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MISSION</h5>
+              <p>1. the empowerment of the citizenry;</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dash3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MISSION</h5>
+              <p>2. humane, efficient and transparent participatory governance;</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dash4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>MISSION</h5>
+              <p>3. the delivery of services that respond to stakeholders needs, compassionate adherence to the rule of law</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/dash5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VISION</h5>
+              <p>The strategic and prime development hub of the south, a city managed through good governance, with an empowered citizenry that thrives in a highly competitive economy, and a sustainable environment that nurtures its diversity and multi-cultural heritage towards a resilient, progressive, and inclusive future.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>   
+  </div>
+  <div class="tab-2">
+    <label for="tab2-2">PROFILE</label>
+    <input id="tab2-2" name="tabs-two" type="radio">
+    <div>
+      <div class="container-4">
+        <div class="row">
+          <div class="row-3"> 
+            <div class="col-4">
+              <label for="personalInfo" class="optional">PERSONAL INFORMATION</label>
+            </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class="col">
+          <input placeholder="Name" type="name" class="form-control" id="name" aria-describedby="emailHelp">
+        </div>
+          <div class="col">
+            <input placeholder="Password" type="password" class="form-control" id="name" aria-describedby="emailHelp">
+          </div>
+          <div class="col">
+            <input placeholder="Confirm password" type="cpassword" class="form-control" id="name" aria-describedby="emailHelp">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input placeholder="Email" type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          </div>
+          <div class="col">
+            <input placeholder="Phone number" type="phone" class="form-control" id="phone" aria-describedby="emailHelp">
+          </div>
+          <div class="col">
+            <input placeholder="Birthdate (mm/dd/yy)" type="birthdate" class="form-control" id="phone" aria-describedby="emailHelp">
+          </div>
+          <ul class="col">
+           
+          </ul >
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+  <body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+.................
+body{
+    background-color: rgba(253, 128, 0, 0.8);
+    overflow: hidden;
+    width: 100%;
+    font-family: "Inter-Medium", "Inter", sans-serif;
+    position: absolute;
+}
+.title{
+ margin: 2rem 20rem 0px 25rem;
+ 
+}
+h5{
+    font-weight: bold;
+    color: #ffffff;
+    margin: 4rem -17rem;
+}
+.brgylogo{
+    height: 117px;
+    width: auto;
+    margin: 1rem 17rem;
+}
+  h1 {
+    font-size: 40px;
+    line-height: 0.8em;
+    color: rgba(255,255,255,0.2);}
+  a {
+      background: #fd264f;
+      color: #fff;
+      display: block;
+      font-size: 12px;
+      line-height: 1em;
+      margin: 0;
+      padding: 5px 110px;
+      position: fixed;
+      top: 20px;
+      right: -100px;
+      text-align: center;
+      text-decoration: none;
+      transform: rotate(45deg);
+  }
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none; }
+  
+  .tabs {
+    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    overflow: hidden; }
+    .tabs [class^="tab"] label,
+    .tabs [class*=" tab"] label {
+      color:  rgba(253, 128, 0, 0.8);
+      cursor: pointer;
+      display: block;
+      font-size: 1.1em;
+      font-weight: 300;
+      line-height: 1em;
+      padding: 2rem 0;
+      text-align: center; }
+    .tabs [class^="tab"] [type="radio"],
+    .tabs [class*=" tab"] [type="radio"] {
+      border-bottom: 1px solid rgba(239, 237, 239, 0.5);
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      display: block;
+      width: 100%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
+      .tabs [class*=" tab"] [type="radio"]:hover,
+      .tabs [class*=" tab"] [type="radio"]:focus {
+        border-bottom: 1px solid rgba(253, 128, 0, 0.8); }
+      .tabs [class^="tab"] [type="radio"]:checked,
+      .tabs [class*=" tab"] [type="radio"]:checked {
+        border-bottom: 2px solid  rgba(253, 128, 0, 0.8); }
+      .tabs [class^="tab"] [type="radio"]:checked + div,
+      .tabs [class*=" tab"] [type="radio"]:checked + div {
+        opacity: 1; }
+      .tabs [class^="tab"] [type="radio"] + div,
+      .tabs [class*=" tab"] [type="radio"] + div {
+        display: block;
+        opacity: 0;
+        padding: 2rem 0;
+        width: 90%;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+    .tabs .tab-2 {
+      width: 50%; }
+      .tabs .tab-2 [type="radio"] + div {
+        width: 200%;
+        margin-left: 200%; }
+      .tabs .tab-2 [type="radio"]:checked + div {
+        margin-left: 0; }
+      .tabs .tab-2:last-child [type="radio"] + div {
+        margin-left: 100%; }
+      .tabs .tab-2:last-child [type="radio"]:checked + div {
+        margin-left: -100%; }
+.bg{
+    background-color: #ffffff;
+}
+
+td,li,p{
+  font-size: 12px;
+}
+.carousel-inner{
+  height: auto;
+  width: 45rem;
+  margin: auto;
+}
+label{
+  font-weight: 700;
+  margin-top: -10px;
+  margin-bottom: 3px
+}
+.container-4{
+  margin: 0px 2rem 0px 2rem;
+  background-color:aqua;
+}
+
