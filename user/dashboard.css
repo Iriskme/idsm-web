@@ -75,31 +75,10 @@ font-weight: 500;
 }
 
 
-.dropdown-2{
-  margin: 5px 13rem;
-}
+
 .dropdown-3{
   margin: 18pt -130pt;
  }
- 
-.dropdown-5{
-  margin-top: 25px;
-}
-.dd{
-  margin-left: 2rem;
-}
-.container-5{
-  margin-left: -150px;
-  margin-top: 10pt;
-}
-.col-6{
-  margin-left: -10px;
-}
-h6{
-  color: rgba(187, 187, 187);
-  font-weight: 500;
-   
-}
 .some-class{
   margin-left: 10px;
   font-size: 16px;
@@ -118,46 +97,8 @@ h6{
   background-color: tomato;
 }
 .input-group{
-  margin-top: 25px;
-  margin-left: -15rem;
+  margin-top: 15px;
 }
-/* small screen*/
-@media screen and (max-width: 1000px){
-  .container{
-  margin: 60px -5px 0px  
-  }
-  .brgylogo{
-      width: 150px;
-      height: 100;
-      margin-left: 8rem;
-  }
-  .user-title{
-      margin-top:-30pt;
-      font-size: 24px;
-      margin-left: 10pt;    
-  }
-  .container-2{
-      margin-top: 5pt;
-      margin-left: 1rem;
-      margin-right:10pt; 
-      width: auto;
-      height: 21rem;
-  }
-  .userlogo{
-      width: auto;
-      height: 40pt;
-      margin-top: 1rem;
-      margin-left: 10rem;
-      margin-bottom: 1rem;
-  }
-
-  .button{
-      margin:5pt 55pt;
-      border-radius: 5px;    
-  }
-
-}
-
 .space{
   height: 12px;
 }
@@ -264,11 +205,6 @@ h2{
   from {opacity: 0} 
   to {opacity: 1}
 }
-.containerr{
-  margin: 10px -20rem;
-  color: rgb(6, 191, 74);
-
-}
 /* HOME */
 .homebody{
   padding-top: 5rem;
@@ -291,4 +227,16 @@ td{
   color: rgba(253, 128, 0, 0.8);
   font-weight: 500;
  
+}
+
+.upid{
+font-size: 12px;
+color: rgb(93, 89, 89);
+}
+.ig2{
+margin: 25px -15rem
+}
+.box{
+  margin: auto;
+  display:none;
 }
