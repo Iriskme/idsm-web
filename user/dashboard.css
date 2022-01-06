@@ -159,6 +159,7 @@ h2{
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+  margin-top: -1rem;
 }
 
 /* The Close Button */
@@ -239,4 +240,7 @@ margin: 25px -15rem
 .box{
   margin: auto;
   display:none;
+}
+.ig3{
+  margin: auto;
 }

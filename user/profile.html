@@ -31,6 +31,26 @@
     });
 
     });
+    $(document).ready(function(){
+      var checker = document.getElementById('checkme');
+      var sendbtn = document.getElementById('sendNewSms');
+      var sendbtn1 = document.getElementById('sendNewSms1');
+      var sendbtn2 = document.getElementById('sendNewSms2');
+      // when unchecked or checked, run the function
+          checker.onchange = function(){
+          if(this.checked){
+              sendbtn.disabled = false;
+              sendbtn1.disabled = false;
+              sendbtn2.disabled = false;
+          } else {
+              sendbtn.disabled = true;
+              sendbtn1.disabled = true;
+              sendbtn2.disabled = true;
+          }
+
+          }
+        });
+
     
   </script>
     <title>Brgy. Nazareth Residential System</title>
@@ -44,7 +64,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
        
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <ul class="navbar-nav me-auto my-2 my-lg-0">
            
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href=userdashboard.html>HOME</a>
@@ -216,35 +236,26 @@
                   <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
                 </div>
               </div>
-              <div class="space"></div>
               <div class="row-3">
                 <div class="space"></div>
               <div class="row">
                 <div class="col-4">
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="flexRadioDefault">
-                      <div class="form-check-label" for="flexRadioDefault1">
-                        HOUSEHOLD HEAD
-                      </div>
+                      <input id="checkme" type="radio">  HOUSEHOLD HEAD
                     </div>
               </div>
               <div class="row" >
-                <div class="col">
-                  <input placeholder="Family Name" type="famname" class="form-control" id="famname" aria-describedby="emailHelp">
+                <div class="input-group ig3">
+                  <input disabled="disabled" id="sendNewSms"  name="sendNewSms" placeholder="Family Name" type="input" class="form-control" aria-describedby="emailHelp">
+                  <input disabled="disabled" id="sendNewSms1"  name="sendNewSms" placeholder="House Number"  type="input" class="form-control" aria-describedby="emailHelp">
+                  <input disabled="disabled" id="sendNewSms2" name="sendNewSms" placeholder="Family Income" type="input" class="form-control" aria-describedby="emailHelp">
                 </div>
-                <div class="col">
-                  <input placeholder="House Number"  type="housenum" class="form-control" id="housenum" aria-describedby="emailHelp">
-                </div>
-                <div class="col">
-                  <input placeholder="Family Income" type="famincome" class="form-control" id="famincome" aria-describedby="emailHelp">
-                </div>
-                <div class="space"></div>
-              
                 <div class="row">
                   <div class="row">
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-2 col-6 mx-auto">
                     <button id="myBtn">REQUEST TO EDIT</button>
                   </div>
+              </div>
       
       <!-- POP MESSAGE FOR REQUEST TO EDIT-->
       <div id="myModal" class="modal">

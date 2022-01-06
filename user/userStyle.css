@@ -188,7 +188,7 @@ h6{
         margin:5pt 55pt;
         border-radius: 5px;    
     }
-    
+
 }
   /* OCCUPATION */
   .box{
@@ -201,4 +201,7 @@ h6{
 }
 .ig2{
     margin: 25px -15rem
+}
+.ig3{
+  margin: auto;
 }
